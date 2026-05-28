@@ -4,7 +4,7 @@ import { IoBagHandle } from "react-icons/io5";
 import { IoSearchSharp } from "react-icons/io5";
 const Navbar = () => {
     return (
-        <header className='bg-red-100   '>
+        <header className='fixed top-0 right-0 left-0'>
             <nav className='flex max-w-350 mx-auto justify-between h-[14vh] px-10 items-center'>
                 <a href="/" className='text-3xl font-bold'>
                     Gr<span className='text-orange-500 uppercase'>o</span>sify
